@@ -39,11 +39,4 @@
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 		<nature>net.sourceforge.pmd.eclipse.plugin.pmdNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>Admin</name>
-			<type>2</type>
-			<location>D:/Projects/portal/workspace/AdminWeb/WebContent</location>
-		</link>
-	</linkedResources>
 </projectDescription>
