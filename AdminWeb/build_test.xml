@@ -1,5 +1,5 @@
 <?xml version="1.0" ?> 
-<project name="AdminWeb" default="test">
+<project name="AdminWebTest" default="test">
 
 	<property name="substitution.file" location="config.properties"/>
 	<property file="${substitution.file}" prefix="s"/>
@@ -9,7 +9,7 @@
 	<property name="bundles.dir" value="com/tid/bundles" />
 	<property name="webapp.dir" value="WebContent" />	
 	<property name="lib.dir" value="${webapp.dir}/WEB-INF/lib" />
-	<property name="classes.dir" value="build/classes" />		
+	<property name="classes.dir" value="WEB-INF/classes" />		
 	<property name="test.dir" value="build/test" />
 	<property name="src.test" location="test" />
 	<property name="TALK" value="true" />
